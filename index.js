@@ -24,11 +24,15 @@ function App() {
         temp.splice(index, 1);
         setTodos(temp);
     }
-    return(<>
-        {todos.map((todo, i) =>
-            <Todo index={i} key={i} todo={todo} remove={removeTodo}/>)}
-        <TodoForm addTodo={addTodo}/>
-    </>);
+    return(
+        <div className="app">
+            <div className="todo-list">
+                {todos.map((todo, i) =>
+                    <Todo index={i} key={i} todo={todo} remove={removeTodo}/>)}
+                <TodoForm addTodo={addTodo}/>
+            </div>
+        </div>
+    );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
