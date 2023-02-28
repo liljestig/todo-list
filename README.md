@@ -1,5 +1,5 @@
 # ToDo List
-Developed using Visual Studio Code for Windows, learning how to create a simple ToDo List web application using React and Formik.
+Developed using Visual Studio Code for Windows, learning how to create a simple ToDo List web application using React.
 ## How to install
 Clone the repository and change directory to the deployment root directory, then execute the "http-server -c-1c" command to start the application.
 ## Usage
